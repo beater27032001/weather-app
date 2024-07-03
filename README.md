@@ -33,5 +33,30 @@ Siga estas etapas para rodar o projeto na sua máquina local:
 1. **Clone o repositório:**
 
    ```bash
-   git clone https://github.com/seu-usuario/weather-app.git
+   git clone https://github.com/beater27032001/weather-app.git
    cd weather-app
+
+   ```
+
+2. **Instale as dependências:**
+
+   ```bash
+   npm install
+   ```
+
+3. **Adicione sua chave de API da OpenWeatherMap:**
+    Abra o arquivo ApiProvider.jsx e substitua your_api_key_here pela sua chave de API da OpenWeatherMap.
+
+   ```bash
+   const apiKey = "your_api_key_here";
+   ```
+
+4. **Rode o aplicativo:**
+
+   ```bash
+   npm run dev
+   ```
+
+5. **Abra o navegador:**
+
+   Abra o navegador e acesse `http://localhost:3000`.
