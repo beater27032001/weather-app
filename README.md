@@ -60,3 +60,9 @@ Siga estas etapas para rodar o projeto na sua máquina local:
 5. **Abra o navegador:**
 
    Abra o navegador e acesse `http://localhost:3000`.
+
+## Acesse o Site
+
+Você também pode acessar o aplicativo online através do link abaixo:
+
+[Weather App - Versão Online](https://weather-app-taupe-three-78.vercel.app)
