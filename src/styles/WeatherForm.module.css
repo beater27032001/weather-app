@@ -1,0 +1,32 @@
+.WeatherForm {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search_bar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.search_bar input {
+  padding: 10px;
+  height: 50px;
+  border: none;
+  border-radius: 40px;
+  color: #626262;
+  background-color: #f5f7f6;
+  font-size: 18px;
+  outline: none;
+  padding-left: 25px;
+}
+
+.search_button {
+  width: 50px;
+  padding: 15px;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #f5f7f6;
+}

@@ -1,0 +1,51 @@
+.weather_display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.temp{
+    color: #fff;
+    font-size: 50px;
+    line-height: 1;
+}
+
+.location{
+    color:#fff;
+    font-size: 30px;
+}
+
+.weather_data{
+    width: 100%;
+    margin-top: 40px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.weather_data .col{
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    font-size: 22px;
+}
+
+.weather_data .col span{
+    display: block;
+    font-size: 15px;
+}
+
+.weather_data .col .img{
+    width: 26px;
+    margin-top: 10px;
+}
+
+.error{
+    color: #fff;
+    font-size: 30px;
+}
+
+.loading{
+    color: #fff;
+    font-size: 30px;
+}
